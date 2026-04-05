@@ -1,0 +1,32 @@
+{
+  "name": "amante-ideal---backend",
+  "version": "1.0.0",
+  "description": "Repositorio para el backend del ejercicio #3 - Amante ideal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ITCR-Diseno-de-software-2026-S1/Amante-Ideal---Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ITCR-Diseno-de-software-2026-S1/Amante-Ideal---Backend/issues"
+  },
+  "homepage": "https://github.com/ITCR-Diseno-de-software-2026-S1/Amante-Ideal---Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
